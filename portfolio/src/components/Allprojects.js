@@ -45,7 +45,7 @@ export default function Allprojects() {
           
         }} to="/allprojectsdetail"> */}
 
-        <Link to="/allprojectsdetail" onClick={handleClick}>
+        <Link to="/mern" onClick={handleClick}>
           <div
             className="block-1 block"
             style={{
@@ -62,7 +62,7 @@ export default function Allprojects() {
           </div>
         </Link>
 
-        <Link to="/allprojectsdetail" onClick={handleClick}>
+        <Link to="/reactjs" onClick={handleClick}>
           <div
             className="block-2 block"
             style={{
@@ -78,7 +78,7 @@ export default function Allprojects() {
           </div>
         </Link>
 
-        <Link to="/allprojectsdetail" onClick={handleClick}>
+        <Link to="/js" onClick={handleClick}>
           <div
             className="block-3 block"
             style={{
@@ -96,7 +96,7 @@ export default function Allprojects() {
           </div>
         </Link>
 
-        <Link to="/allprojectsdetail" onClick={handleClick}>
+        <Link to="/native" onClick={handleClick}>
           <div
             className="block-4 block"
             style={{

@@ -15,8 +15,8 @@ export default function Allprojectsdetail({input}) {
   // eg if mern--block is clicked all the mern application will be there on the screen
   let filteredData = data.filter((item) => {
     let tagarray = item.tag;    
-    let findtag = tagarray.find((tag) => tag === "reactjs");
-    if (findtag == "reactjs") {
+    let findtag = tagarray.find((tag) => tag === input );
+    if (findtag == input) {
       return item;
     }
   });
@@ -25,7 +25,7 @@ export default function Allprojectsdetail({input}) {
   return (
     <div className="allprojectdetail--block">
       <div className="heading--block">
-        <h2>ALL PROJECTS</h2>
+        <h2>PROJECTS</h2>
       </div>
 
       <div
