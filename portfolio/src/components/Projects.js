@@ -92,7 +92,7 @@ export default function Porjects() {
          flexDirection: "column",
          justifyContent: "center",
          alignItems: "end",
-         marginRight: "1.5em",
+         marginRight: "15.5em",
          letterSpacing: "0.5px",
        }}
      >
