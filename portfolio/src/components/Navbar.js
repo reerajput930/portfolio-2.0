@@ -30,10 +30,10 @@ export default function Navbar() {
             <div className="navbar-menu">
               <ul style={{ display: "flex" }}>
                 <Link to="/">
-                      <li>HOME PAGE</li>
+                      <li>HOME</li>
                     </Link>
                 <li>
-                  <a href="#me">ABOUTE ME</a>
+                  <a href="#me">ME</a>
                 </li>
                 <li>
                   <a href="#skills">SKILLS</a>
@@ -45,7 +45,7 @@ export default function Navbar() {
                   <a href="#experence">EXPERENCE</a>
                 </li>
                 <li>
-                  <a href="#contact">CONTACT ME</a>
+                  <a href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>
