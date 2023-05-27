@@ -2,7 +2,7 @@ import Homeimg from "./images/homeImg.jpg";
 import profileimg from "./images/profilepic.jpg";
 import Typewriting from "./Typewriting";
 import Icons from "./Icons";
-import {} from "@fortawesome/free-regular-svg-icons";
+
 import github from "./icons/github.png";
 
 import "../index.css";

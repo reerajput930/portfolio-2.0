@@ -1,5 +1,3 @@
-import { faFile } from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import reactjs from "./icons/1.png"
 import mern from "./icons/2.png"
 import mobile from "./icons/3.png"
