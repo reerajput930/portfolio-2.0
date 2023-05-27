@@ -12,7 +12,7 @@ export default function Allprojects() {
         style={{
           display: "flex",
           flexWrap: "wrap",
-          width: "60%",
+          width: "80%",
           justifyContent: "center",
           alignItems: "center",
           marginBottom: "5em",
