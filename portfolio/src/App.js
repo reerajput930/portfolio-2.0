@@ -5,13 +5,13 @@ import Porjects from "./components/Projects";
 import Allprojects from "./components/Allprojects";
 import Experiences from "./components/Experiences";
 import Contactus from "./components/Contactus";
-import Allprojectsdetail from "./Allprojectsdetail";
+import Allprojectsdetail from "./components/Allprojectsdetail";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar homestatus={true} />
+      <Navbar/>
       <Routes>
         <Route
           path="/"
@@ -26,15 +26,7 @@ function App() {
             </>
           }
         />
-        <Route
-          path="/allprojectsdetail"
-          element={
-            <>
-              {" "}
-              <Navbar homestatus={false} /> <Allprojectsdetail />{" "}
-            </>
-          }
-        />
+        <Route path="/allprojectsdetail" element={<Allprojectsdetail />} />
       </Routes>
     </>
   );

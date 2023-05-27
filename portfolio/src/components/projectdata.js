@@ -10,7 +10,7 @@ export default [
     {
         title:"GROWTH APPLICATION",
         desc:"This app is made for two individuals. Both of them can check their Progress report and grow together to achieve their goals. It include ToDo manager and zira dashboard feature. ",
-        tag:["mern","tailwindcss"],
+        tag:["mern","tailwind"],
         btn1:"https://github.com/reerajput930/growth-app",
         btn2:"https://github.com/reerajput930/growth-app"
 

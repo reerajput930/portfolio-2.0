@@ -3,17 +3,15 @@ import "../index.css";
 
 import { Link } from "react-router-dom";
 
-export default function Navbar({ homestatus }) {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [atHome, setAtHome] = useState(homestatus);
+  
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // setTimeout(()=>{
-  //   setIsMenuOpen(false)
-  // },[10000])
+  
 
   // solve the bug - prev navbar not closing for new navbar
 

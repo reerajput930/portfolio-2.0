@@ -3,11 +3,12 @@ import mern from "./icons/2.png"
 import mobile from "./icons/3.png"
 import html from "./icons/4.png"
 import {Link} from "react-router-dom"
+import Allprojectsdetail from "./Allprojectsdetail"
 
 export default function Allprojects() {
   return (
     <div className="allprojects--block">
-      <h3 style={{color:"whitesmoke",fontFamily:"cursive",fontWeight:"300",marginTop:"10px",marginBottom:"10px"}}> All Projects are here!</h3>
+      <h3 style={{fontSize:"35px",color:"whitesmoke",fontFamily:"cursive",fontWeight:"300",marginTop:"10px",marginBottom:"10px"}}> All Projects are here!</h3>
       <div
         style={{
           display: "flex",
@@ -32,6 +33,7 @@ export default function Allprojects() {
             borderRadius: " 2em 0px 0px 0px",
             backgroundColor: "#6e7fd1",
           }}
+         
         >
           <img style={{height:"6em",position:"relative",top:"-3em"}} src={mern}/>
           <h2 >MERN APPLICATIONS</h2>
