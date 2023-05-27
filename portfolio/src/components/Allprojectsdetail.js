@@ -2,9 +2,9 @@ import React, { useEffect,useState } from "react";
 import Card from "./Card";
 import data from "./projectdata";
 
-export default function Allprojectsdetail({select}) {
+export default function Allprojectsdetail({input}) {
   console.log("-------")
-  console.log(select)
+  console.log(input)
   console.log("-------")
   
   useEffect(() => {

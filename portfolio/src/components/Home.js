@@ -43,7 +43,8 @@ export default function Home() {
             RIYA RAJPUT (REE){" "}
           </h2>
 
-          <Typewriting print="Who Brings Imagination into Reality Via Coding!" />
+          {/* <Typewriting print="Who Brings Imagination into Reality Via Coding!" /> */}
+          <div style={{fontFamily:"monospace",fontSize:"21px",fontWeight:"300",marginTop:"10px"}} id="typewriter">Who Brings Imagination into Reality Via Coding!</div>
 
           <div className="icons--block">
             <Icons />
