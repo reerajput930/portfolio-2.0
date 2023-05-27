@@ -697,6 +697,9 @@ a {
 .allprojectdetail--block{
   /* display: flex;
   justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  
  
  
 }
@@ -709,4 +712,20 @@ a {
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 14px;
+}
+
+
+/* project btn */
+.project--btn{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin:5px;
 }

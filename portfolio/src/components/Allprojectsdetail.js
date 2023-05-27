@@ -1,6 +1,7 @@
 import React, { useEffect,useState } from "react";
 import Card from "./Card";
 import data from "./projectdata";
+import { Link } from "react-router-dom";
 
 export default function Allprojectsdetail({input}) {
   console.log("-------")
@@ -26,6 +27,14 @@ export default function Allprojectsdetail({input}) {
     <div className="allprojectdetail--block">
       <div className="heading--block">
         <h2>PROJECTS</h2>
+      </div>
+      <div  style={{ display:" flex",
+    justifyContent:"center"}}>
+      
+        <Link to="/reactjs"><button className="project--btn">Reactjs Project</button></Link>
+        <Link to="/mern"><button className="project--btn">Mern Project</button></Link>
+        <Link to="/js"><button className="project--btn">Html/Css/Js Project</button></Link>
+        <Link to="/native"><button className="project--btn">NativeProject</button></Link>
       </div>
 
       <div
