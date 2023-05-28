@@ -2,12 +2,14 @@ import Homeimg from "./images/homeImg.jpg";
 import profileimg from "./images/profilepic.jpg";
 import Typewriting from "./Typewriting";
 import Icons from "./Icons";
+import React,{useEffect} from "react";
 
 import github from "./icons/github.png";
 
 import "../index.css";
 
 export default function Home() {
+
   return (
     <div
       className="home--block"

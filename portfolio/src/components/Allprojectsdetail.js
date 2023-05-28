@@ -27,6 +27,8 @@ export default function Allprojectsdetail({input}) {
     <div className="allprojectdetail--block">
       <div className="heading--block">
         <h2>PROJECTS</h2>
+        <Link to="/"><button className="btn">BACK</button></Link>
+        
       </div>
       <div className="all--btn--block"  style={{ display:" flex",
     justifyContent:"center"}}>
