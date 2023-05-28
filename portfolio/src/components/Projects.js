@@ -122,6 +122,7 @@ export default function Porjects() {
           color: "whitesmoke",
         }}
         id="pro"
+        className="upper--project--subheading--block"
       >
         Projects
       </h2>
@@ -159,6 +160,7 @@ export default function Porjects() {
         My Top Creations
       </h3>
       <div
+       className="slider--upper"
         style={{
           marginTop: "10em",
          

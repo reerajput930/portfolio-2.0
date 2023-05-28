@@ -746,28 +746,30 @@ a {
 
 @media only screen and (max-width: 500px) {
   .icons {
-    height: 40px;
-    padding: 10px;
+    height: 45px;
+    padding: 18px;
 
   }
 
   .items {
     margin: 0px;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     flex-wrap: wrap;
   }
 
   .tech--subheading--block {
-    font-size: 2em;
+     font-size: 1.6em !important;
   }
 
   .techStack--block h2 {
     font-size: 1.9em !important;
   }
-  .techStack--block{
+
+  .techStack--block {
     margin: 2px !important;
-    margin-top: 50px !important;
+    margin-top: 60px !important;
+    margin-bottom: 100px !important;
   }
 
   nav {
@@ -801,7 +803,7 @@ a {
     width: 80%;
   }
 
- 
+
 
   .btn {
     padding: 6px 20px;
@@ -822,19 +824,21 @@ a {
   }
 
   .block img {
-    height: 3.5em !important;
+    height: 3em !important;
     position: static;
     top: -1em !important;
   }
 
   .block h2 {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 15px !important;
   }
 
-  .lower--creative--block{
-  margin-top: 20em  !important;
-  width: 15em !important;
+  .lower--creative--block {
+    margin-top: 20em !important;
+    width: 15em !important;
   }
+
   .inner--allproject--block {
     width: 100% !important;
   }
@@ -857,32 +861,34 @@ a {
     font-size: 17ZZXpx;
   }
 
-  .timeline{    padding: 2px; }
+  .timeline {
+    padding: 2px;
+  }
 
-.timeline-row:nth-child(odd) {
- 
+  .timeline-row:nth-child(odd) {
+
     padding-right: 43%;
-}
-.timeline-row {
+  }
+
+  .timeline-row {
     padding-left: 43%;
   }
-.timeline-row .timeline-content:before {
-        right: -26px;
+
+  .timeline-row .timeline-content:before {
+    right: -26px;
     width: 14px;
     height: 14px;
- }
-.timeline-row:nth-child(even) .timeline-content:before {
+  }
+
+  .timeline-row:nth-child(even) .timeline-content:before {
     left: -26px;
     right: initial;
+  }
+   
+  .timeline-row .timeline-time {
+   
+    font-size: 1.2rem;
 }
-
- 
-
-
-
-
-
-
   .contact {
     flex-direction: column !important;
   }
@@ -905,97 +911,142 @@ a {
     font-weight: 800;
     padding-top: 70px;
     padding-bottom: 50px;
-    font-size: 45px;
+    font-size: 40px !important;
 
   }
 
   .home--block {
     padding: 2px;
- 
+
   }
 
   .inner--block {
 
-   justify-content: center;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 5em;    
+    margin-bottom: 5em;
     margin-top: 7em;
 
   }
-  .user--detail{
-    margin-left: 2em;
+
+  .user--detail {
+    margin-left: 2em !important;
 
   }
-  .user--detail h3{
+
+  .user--detail h3 {
     font-size: 1.4em !important;
   }
 
-  /* slider */
-  /* .carousel .slider-wrapper.axis-horizontal .slider {
-    -ms-box-orient: horizontal;
-    
-    display: unset  !important;
-} */
-.slider--block {
-  height: 17em;
-}
-.slider--block h2{
-  font-size: 1.5em !important;
-}
-.slider--block p{
-  font-size: 15px !important;
-  width: 80% !important;
-}
-.growth-project div{
-  margin-right: 4.5em !important;
-}
-.growth-project div  {
-  justify-content: center !important;
-  align-items: center !important;
-  color: #1a233a;
-}
-.github-api div  {
-  justify-content: center !important;
-  align-items: center !important;
-  color: #1a233a;
-}
-.zero-project div  {
-  justify-content: center !important;
-  align-items: center !important;
-}
-.slider--block {
-  width: 100%  !important;
-  /* padding: 12px !important; */
-  background-size: cover !important;
-}
-.slider--block div{
-  width:-webkit-fill-available ;
-  margin: 0px !important;
-}
-.project--block{
-  padding: 4px !important;
-  height: 46em !important;
-}
-.techStack--block {
+
+  .slider--block {
+    height: 17em;
+  }
+
+  .slider--block h2 {
+    font-size: 1.5em !important;
+  }
+
+  .slider--block p {
+    font-size: 15px !important;
+    width: 80% !important;
+    font-weight: 200 !important;
+  }
+
+  .growth-project div {
+    margin-right: 4.5em !important;
+  }
+
+  .growth-project div {
+    justify-content: center !important;
+    align-items: center !important;
+    color: #1a233a;
+  }
+
+  .github-api div {
+    justify-content: center !important;
+    align-items: center !important;
+    color: #1a233a;
+  }
+
+  .zero-project div {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .slider--block {
+    width: 100% !important;
+    /* padding: 12px !important; */
+    background-size: cover !important;
+  }
+
+  .slider--block div {
+    width: -webkit-fill-available;
+    margin: 0px !important;
+  }
+
+  .project--block {
+    padding: 4px !important;
+    height: 46em !important;
+    padding-top: 66px !important;
+  }
+
+  .techStack--block {
+
+    margin: 20px;
+  }
+
+  .inner--block {
+    flex-direction: column;
+  }
+
+  .user--detail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+
+  .user--img {
+    height: 11em !important;
+
+  }
+  .user--name {
+    font-size: 3em !important;
+  }
+  .project--subheading--block {
+    font-size: 2em;   
+  }
+
+  .upper--project--subheading--block{   
+    font-size: 1.5em;
+   }
+
+   .allprojects--block h3{
+      font-size: 22px !important;
+   }
+
+   /* margin-top: 5em; */   
+   .slider--upper{
+     margin-top: 6em  !important;
+   }
+   .experience h2 {    
+    font-size: 40px !important;    
+    }
+
+    .leftpart p {
+      margin-bottom: 25px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+    .timeline h4 {
+      font-size: 21px !important;
+     
+  }
+  .quote{
+    width: 90% !important ;
+  }
   
-  margin: 20px;
-}
+  
 
-.inner--block{
-  flex-direction: column ;
-}
-.user--detail{
-  display: flex;
-  flex-direction: column;
-  margin-top: 90px;
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-.user--img{
-  height: 11em !important;
 
-}
-.user--name{
-  font-size: 3em !important;
-}
 }
