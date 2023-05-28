@@ -774,13 +774,17 @@ a {
 
   nav {
     padding: 4px 4px 4px 4px !important;
+    width: -webkit-fill-available !important;
+    justify-content: center;
 
   }
 
   nav ul li {
-    padding: 0px 0px 0px 0px;
-    font-size: 11px;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
     font-weight: 400;
+    margin: 7px;
+
   }
 
   .user--detail {
