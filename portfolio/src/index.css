@@ -1046,7 +1046,9 @@ a {
     width: 90% !important ;
   }
   
-  
+  .all--btn--block{
+    flex-wrap: wrap;
+  }
 
 
 }

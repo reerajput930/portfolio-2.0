@@ -28,7 +28,7 @@ export default function Allprojectsdetail({input}) {
       <div className="heading--block">
         <h2>PROJECTS</h2>
       </div>
-      <div  style={{ display:" flex",
+      <div className="all--btn--block"  style={{ display:" flex",
     justifyContent:"center"}}>
       
         <Link to="/reactjs"><button className="project--btn">Reactjs Project</button></Link>
