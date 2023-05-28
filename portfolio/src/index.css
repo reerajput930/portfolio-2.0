@@ -755,7 +755,7 @@ a {
     margin: 0px;
     margin-top: 1em;
     margin-bottom: 1em;
-
+    flex-wrap: wrap;
   }
 
   .tech--subheading--block {
@@ -765,6 +765,10 @@ a {
   .techStack--block h2 {
     font-size: 1.9em !important;
   }
+  .techStack--block{
+    margin: 2px !important;
+    margin-top: 50px !important;
+  }
 
   nav {
     padding: 4px 4px 4px 4px !important;
@@ -772,8 +776,8 @@ a {
   }
 
   nav ul li {
-    padding: 0px 4px 0px 4px;
-    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+    font-size: 11px;
     font-weight: 400;
   }
 
@@ -812,8 +816,8 @@ a {
   }
 
   .block {
-    width: 11em;
-    height: 13em;
+    width: 9em;
+    height: 12em;
     padding: 10px;
   }
 
@@ -853,6 +857,32 @@ a {
     font-size: 17ZZXpx;
   }
 
+  .timeline{    padding: 2px; }
+
+.timeline-row:nth-child(odd) {
+ 
+    padding-right: 43%;
+}
+.timeline-row {
+    padding-left: 43%;
+  }
+.timeline-row .timeline-content:before {
+        right: -26px;
+    width: 14px;
+    height: 14px;
+ }
+.timeline-row:nth-child(even) .timeline-content:before {
+    left: -26px;
+    right: initial;
+}
+
+ 
+
+
+
+
+
+
   .contact {
     flex-direction: column !important;
   }
@@ -880,7 +910,7 @@ a {
   }
 
   .home--block {
-    padding: 22px;
+    padding: 2px;
  
   }
 
@@ -943,7 +973,29 @@ a {
   margin: 0px !important;
 }
 .project--block{
-  padding: 34px !important;
+  padding: 4px !important;
   height: 46em !important;
+}
+.techStack--block {
+  
+  margin: 20px;
+}
+
+.inner--block{
+  flex-direction: column ;
+}
+.user--detail{
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.user--img{
+  height: 11em !important;
+
+}
+.user--name{
+  font-size: 3em !important;
 }
 }
