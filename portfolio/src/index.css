@@ -759,7 +759,7 @@ a {
   }
 
   .tech--subheading--block {
-     font-size: 1.6em !important;
+    font-size: 1.6em !important;
   }
 
   .techStack--block h2 {
@@ -884,11 +884,12 @@ a {
     left: -26px;
     right: initial;
   }
-   
+
   .timeline-row .timeline-time {
-   
+
     font-size: 1.2rem;
-}
+  }
+
   .contact {
     flex-direction: column !important;
   }
@@ -1010,45 +1011,68 @@ a {
     height: 11em !important;
 
   }
+
   .user--name {
     font-size: 3em !important;
   }
+
   .project--subheading--block {
-    font-size: 2em;   
+    font-size: 2em;
   }
 
-  .upper--project--subheading--block{   
+  .upper--project--subheading--block {
     font-size: 1.5em;
-   }
-
-   .allprojects--block h3{
-      font-size: 22px !important;
-   }
-
-   /* margin-top: 5em; */   
-   .slider--upper{
-     margin-top: 6em  !important;
-   }
-   .experience h2 {    
-    font-size: 40px !important;    
-    }
-
-    .leftpart p {
-      margin-bottom: 25px;
-      font-size: 15px;
-      font-weight: 300;
-    }
-    .timeline h4 {
-      font-size: 21px !important;
-     
   }
-  .quote{
-    width: 90% !important ;
+
+  .allprojects--block h3 {
+    font-size: 22px !important;
   }
-  
-  .all--btn--block{
+
+  /* margin-top: 5em; */
+  .slider--upper {
+    margin-top: 6em !important;
+  }
+
+  .experience h2 {
+    font-size: 40px !important;
+  }
+
+  .leftpart p {
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .timeline h4 {
+    font-size: 21px !important;
+
+  }
+
+  .quote {
+    width: 90% !important;
+  }
+
+  .all--btn--block {
     flex-wrap: wrap;
   }
 
+  .navbar-toggle {
+    margin: 20px;
+
+  }
+
+  .card-button {
+    padding: 8px 30px;
+    font-size: 13px !important;
+  }
+
+  .card-buttons {
+    margin-bottom: 10px;
+  }
+
+  .carousel .control-dots {
+    margin: 0px 0;
+
+  }
 
 }
