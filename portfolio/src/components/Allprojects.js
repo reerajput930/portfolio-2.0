@@ -27,6 +27,7 @@ export default function Allprojects() {
         All Projects are here!
       </h3>
       <div
+      className="inner--allproject--block"
         style={{
           display: "flex",
           flexWrap: "wrap",

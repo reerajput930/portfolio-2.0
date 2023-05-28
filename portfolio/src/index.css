@@ -19,11 +19,11 @@ nav {
   padding: 15px 20px 15px 20px !important;
   position: fixed;
   bottom: 30px;
-  
-  
+
+
   border-radius: 50px;
   z-index: 12;
-  
+
 
   /* glass effect */
   color: #ffffff;
@@ -122,13 +122,17 @@ a {
   padding: 40px;
   cursor: pointer;
 }
-.icons{
-  overflow: hidden; /* Ensure the image doesn't overflow its container */
-  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+
+.icons {
+  overflow: hidden;
+  /* Ensure the image doesn't overflow its container */
+  transition: transform 0.3s ease-in-out;
+  /* Smooth transition effect */
 }
 
 .icons:hover {
-  transform: scale(1.5); /* Apply zoom effect on hover */
+  transform: scale(1.5);
+  /* Apply zoom effect on hover */
 }
 
 
@@ -464,7 +468,7 @@ a {
 
 .slider--block {
   height: 25em;
-  width: 120%;
+  width: 110%;
   background-color: white;
   color: whitesmoke;
   display: flex;
@@ -473,29 +477,36 @@ a {
   font-family: monospace;
   cursor: pointer;
 
- 
-  background-size: cover; 
-  background-size: 110%; /* Initial background size */
-   background-repeat: no-repeat;
+
+  background-size: cover;
+  background-size: 100%;
+  /* Initial background size */
+  background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
 }
 
 .zero-project {
-  background-image: url("../src/components/projects/1.jpg");  
+  background-image: url("../src/components/projects/1.jpg");
 }
+
 .growth-project {
   background-image: url("../src/components/projects/4.jpg");
-  background-size: 120%; /* Initial background size */
+  background-size: 100%;
+  /* Initial background size */
 }
+
 .github-api {
   background-image: url("../src/components/projects/3.jpg");
 }
 
 .slider--block:hover {
-  background-size: 120%; /* Zoom effect on the background image */
+  background-size: 110%;
+  /* Zoom effect on the background image */
 }
-.growth-project:hover{
-  background-size: 130%; /* Zoom effect on the background image */
+
+.growth-project:hover {
+  background-size: 110%;
+  /* Zoom effect on the background image */
 
 }
 
@@ -612,7 +623,7 @@ a {
 
 
 /* all projects detail */
-.heading--block{
+.heading--block {
   BACKGROUND-COLOR: #252439;
   height: 5em;
   display: flex;
@@ -694,14 +705,14 @@ a {
 }
 
 /* -------------- */
-.allprojectdetail--block{
+.allprojectdetail--block {
   /* display: flex;
   justify-content: center; */
   display: flex;
   flex-direction: column;
-  
- 
- 
+
+
+
 }
 
 /* hash */
@@ -716,7 +727,7 @@ a {
 
 
 /* project btn */
-.project--btn{
+.project--btn {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
@@ -727,5 +738,212 @@ a {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  margin:5px;
+  margin: 5px;
+}
+
+
+/* responsive code */
+
+@media only screen and (max-width: 500px) {
+  .icons {
+    height: 40px;
+    padding: 10px;
+
+  }
+
+  .items {
+    margin: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+  }
+
+  .tech--subheading--block {
+    font-size: 2em;
+  }
+
+  .techStack--block h2 {
+    font-size: 1.9em !important;
+  }
+
+  nav {
+    padding: 4px 4px 4px 4px !important;
+
+  }
+
+  nav ul li {
+    padding: 0px 4px 0px 4px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .user--detail {
+    width: 100%;
+
+  }
+
+  .creative--block {
+    height: 17em;
+    width: 10em;
+
+  }
+
+  .inner--slider--block h2 {
+    font-size: 35px !important;
+  }
+
+  .inner--slider--block p {
+    font-size: 12px !important;
+    width: 80%;
+  }
+
+ 
+
+  .btn {
+    padding: 6px 20px;
+    font-size: 15px;
+  }
+
+  .carousel .carousel-status {
+
+    padding: 5px;
+    font-size: 16px !important;
+
+  }
+
+  .block {
+    width: 11em;
+    height: 13em;
+    padding: 10px;
+  }
+
+  .block img {
+    height: 3.5em !important;
+    position: static;
+    top: -1em !important;
+  }
+
+  .block h2 {
+    font-size: 20px;
+  }
+
+  .lower--creative--block{
+  margin-top: 20em  !important;
+  width: 15em !important;
+  }
+  .inner--allproject--block {
+    width: 100% !important;
+  }
+
+
+
+
+  .timeline-row .timeline-content p {
+
+    font-size: 13px;
+  }
+
+  .timeline-row .timeline-content h4 {
+    margin: 0 0 20px 0;
+    overflow: unset !important;
+    white-space: unset !important;
+    text-overflow: unset !important;
+    line-height: 150%;
+    width: 100%;
+    font-size: 17ZZXpx;
+  }
+
+  .contact {
+    flex-direction: column !important;
+  }
+
+  .leftpart {
+    margin: 15px 0px 0px 0px;
+    width: 90%;
+  }
+
+  .rightpart {
+    text-align: center;
+
+  }
+
+  .rightpart h2 {
+    font-size: 24px;
+  }
+
+  .contactdetail h1 {
+    font-weight: 800;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 45px;
+
+  }
+
+  .home--block {
+    padding: 22px;
+ 
+  }
+
+  .inner--block {
+
+   justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;    
+    margin-top: 7em;
+
+  }
+  .user--detail{
+    margin-left: 2em;
+
+  }
+  .user--detail h3{
+    font-size: 1.4em !important;
+  }
+
+  /* slider */
+  /* .carousel .slider-wrapper.axis-horizontal .slider {
+    -ms-box-orient: horizontal;
+    
+    display: unset  !important;
+} */
+.slider--block {
+  height: 17em;
+}
+.slider--block h2{
+  font-size: 1.5em !important;
+}
+.slider--block p{
+  font-size: 15px !important;
+  width: 80% !important;
+}
+.growth-project div{
+  margin-right: 4.5em !important;
+}
+.growth-project div  {
+  justify-content: center !important;
+  align-items: center !important;
+  color: #1a233a;
+}
+.github-api div  {
+  justify-content: center !important;
+  align-items: center !important;
+  color: #1a233a;
+}
+.zero-project div  {
+  justify-content: center !important;
+  align-items: center !important;
+}
+.slider--block {
+  width: 100%  !important;
+  /* padding: 12px !important; */
+  background-size: cover !important;
+}
+.slider--block div{
+  width:-webkit-fill-available ;
+  margin: 0px !important;
+}
+.project--block{
+  padding: 34px !important;
+  height: 46em !important;
+}
 }

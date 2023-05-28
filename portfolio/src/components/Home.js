@@ -31,20 +31,20 @@ export default function Home() {
       <div className="inner--block">
         <div className="user--img">
           <img
-            style={{ height: "15em", borderRadius: "100%" }}
+            style={{ height: "8em", borderRadius: "100%" }}
             src={profileimg}
           />
         </div>
         <div className="user--detail">
-          <h3 className="user--name" style={{ fontSize: "2em" }}>
+          <h3 className="user--name" style={{ fontSize: "1em" }}>
             Hello ,It's me 🤟{" "}
           </h3>
-          <h2 className="user--name" style={{ fontSize: "4em" }}>
+          <h2 className="user--name" style={{ fontSize: "2em" }}>
             RIYA RAJPUT (REE){" "}
           </h2>
 
           {/* <Typewriting print="Who Brings Imagination into Reality Via Coding!" /> */}
-          <div style={{fontFamily:"monospace",fontSize:"21px",fontWeight:"300",marginTop:"10px"}} id="typewriter">Who Brings Imagination into Reality Via Coding!</div>
+          <div style={{fontFamily:"monospace",fontSize:"15px",fontWeight:"300",marginTop:"10px"}} id="typewriter">Who Brings Imagination into Reality Via Coding!</div>
 
           <div className="icons--block">
             <Icons />

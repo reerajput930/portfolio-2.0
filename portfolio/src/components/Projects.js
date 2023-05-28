@@ -92,7 +92,7 @@ export default function Porjects() {
          flexDirection: "column",
          justifyContent: "center",
          alignItems: "end",
-         marginRight: "15.5em",
+         marginRight: "10.5em",
          letterSpacing: "0.5px",
        }}
      >
@@ -161,8 +161,7 @@ export default function Porjects() {
       <div
         style={{
           marginTop: "10em",
-          paddingLeft: "7em",
-          paddingRight: " 7em",
+         
         }}
       >
         <Slider slides={projects} />
