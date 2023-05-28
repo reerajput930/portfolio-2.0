@@ -29,9 +29,9 @@ export default function Navbar() {
           <nav>
             <div className="navbar-menu">
               <ul style={{ display: "flex" }}>
-                <Link to="/">
+                {/* <Link to="/">
                       <li>HOME</li>
-                    </Link>
+                    </Link> */}
                 <li>
                   <a href="#me">ME</a>
                 </li>

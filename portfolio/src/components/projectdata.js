@@ -43,8 +43,8 @@ export default [
         title:"PORTFOLIO",
         desc:"My personal Portfolio.",
         tag:["reactjs","chatGPT","html","css"],
-        btn1:"",
-        btn2:""
+        btn1:"https://github.com/reerajput930/personal-portfolio",
+        btn2:"https://portfolio-930.up.railway.app/"
 
     },
     {
