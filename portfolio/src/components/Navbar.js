@@ -25,8 +25,8 @@ export default function Navbar() {
           alignItems: "center",
         }}
       >
-        {isMenuOpen && (
-          <nav>
+        {/* {isMenuOpen && ( */}
+          <nav className={`myDiv ${isMenuOpen ? 'show' : ''}`} >
             <div className="navbar-menu">
               <ul style={{ display: "flex" }}>
                 {/* <Link to="/">
@@ -50,17 +50,9 @@ export default function Navbar() {
               </ul>
             </div>
           </nav>
-        )}
+        {/* )} */}
 
-        {/* {isMenuOpen && !atHome && (
-        <nav>
-          <div className="navbar-menu">
-            <ul style={{ display: "flex" }}>
-              
-            </ul>
-          </div>
-        </nav>
-      )} */}
+  
       </div>
 
       <div className="navbar-toggle" onClick={handleMenuToggle}>

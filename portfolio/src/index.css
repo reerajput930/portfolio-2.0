@@ -7,6 +7,33 @@
 body {
   background-color: #f5f9fd;
 }
+.navbar-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  width: 40px;
+  height: 25px;
+  margin: 40px;
+  transition:  1.5s ease-in-out;
+
+  background-color: #252439;
+  padding: 12px;
+  border-radius: 5px;
+  z-index: 12;
+}
+
+.myDiv {
+  opacity: 0;
+  transition: opacity 0.5s ease; /* Transition property */
+}
+
+.myDiv.show {
+  opacity: 1; /* Display the div when 'show' class is added */
+}
+
+
 
 nav {
   display: flex;
@@ -19,12 +46,8 @@ nav {
   padding: 15px 20px 15px 20px !important;
   position: fixed;
   bottom: 30px;
-
-
   border-radius: 50px;
   z-index: 12;
-
-
   /* glass effect */
   color: #ffffff;
   padding: 20px;
@@ -32,13 +55,6 @@ nav {
 }
 
 
-/* .navbar-menu {
-  display: none;
-} */
-
-/* .navbar-menu.open {
-  display: block;
-} */
 
 ul {
   list-style-type: none;
@@ -59,22 +75,7 @@ a {
   text-decoration: none;
 }
 
-.navbar-toggle {
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: fixed;
-  width: 40px;
-  height: 25px;
-  margin: 40px;
-  transition: 0.5s ease;
 
-  background-color: #252439;
-  padding: 12px;
-  border-radius: 5px;
-  z-index: 12;
-}
 
 .bar {
   width: 100%;
@@ -745,6 +746,10 @@ a {
 /* responsive code */
 
 @media only screen and (max-width: 500px) {
+  
+  
+  /* skills section */
+  
   .icons {
     height: 45px;
     padding: 18px;
@@ -757,7 +762,6 @@ a {
     margin-bottom: 3em;
     flex-wrap: wrap;
   }
-
   .tech--subheading--block {
     font-size: 1.6em !important;
   }
@@ -770,7 +774,10 @@ a {
     margin: 2px !important;
     margin-top: 60px !important;
     margin-bottom: 100px !important;
+    padding-left: 10px !important;
   }
+
+  /* navbar  */
 
   nav {
     padding: 4px 4px 4px 4px !important;
@@ -786,11 +793,13 @@ a {
     margin: 7px;
 
   }
-
+   
   .user--detail {
     width: 100%;
 
   }
+
+  /* project section */
 
   .creative--block {
     height: 17em;
@@ -848,7 +857,9 @@ a {
   }
 
 
+ 
 
+  /* experience block */
 
   .timeline-row .timeline-content p {
 
@@ -994,12 +1005,9 @@ a {
     padding: 4px !important;
     height: 46em !important;
     padding-top: 66px !important;
+    padding-left: 10px !important;
   }
 
-  .techStack--block {
-
-    margin: 20px;
-  }
 
   .inner--block {
     flex-direction: column;
