@@ -8,7 +8,7 @@ export default function Experiences() {
       <div className="timeline">
         <div className="timeline-row">
           <div className="timeline-time">
-            May 2022 - July 2022<small>Part-Time</small>
+            May 2022 - July 2022<small>Full-Time</small>
           </div>
           <div className="timeline-content">
             <h4>Junior Software Engineer · Internship</h4>
@@ -37,7 +37,7 @@ export default function Experiences() {
 
         <div className="timeline-row">
           <div className="timeline-time">
-            Dec 2021 - April 2022<small>Part-time</small>
+            Dec 2021 - April 2022<small>Full-time</small>
           </div>
           <div className="timeline-content">
             <h4>Web Developer · Internship</h4>
