@@ -1033,6 +1033,7 @@ a {
 
   .user--name {
     font-size: 3em !important;
+    text-align: center ;
   }
 
   .project--subheading--block {
