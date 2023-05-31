@@ -44,7 +44,7 @@ export default [
         desc:"My personal Portfolio.",
         tag:["reactjs","chatGPT","html","css"],
         btn1:"https://github.com/reerajput930/personal-portfolio",
-        btn2:"https://portfolio-930.up.railway.app/"
+        btn2:"https://ree-portfolio.netlify.app/"
 
     },
     {
@@ -57,7 +57,7 @@ export default [
     },
     {
         title:"CUSTOMER REVIEW SLIDER",
-        desc:" ",
+        desc:"customer review slider.",
         tag:["reactjs","html","css"],
         btn1:"https://github.com/reerajput930/customer-reviews-slider",
         btn2:"https://reerajput930.github.io/customer-reviews-slider/"
@@ -81,7 +81,7 @@ export default [
     },
     {
         title:"CLASSIC TO DO LIST",
-        desc:" ",
+        desc:"This is used as a daily task reminder, used localstorage for storing the data, used js and html/css for it's creation.",
         tag:["js","html","css"],
         btn1:"https://github.com/reerajput930/to-do-list",
         btn2:" https://reerajput930.github.io/to-do-list/"
@@ -89,7 +89,7 @@ export default [
     },
     {
         title:"SERVICE WEBSITE",
-        desc:" ",
+        desc:"This is a Demo service website.",
         tag:["html","css"],
         btn1:"https://github.com/reerajput930/resposive-service-website",
         btn2:"https://reerajput930.github.io/resposive-service-website/"
@@ -97,7 +97,7 @@ export default [
     },
     {
         title:"FRIENDS SITCOM QUIZ",
-        desc:" ",
+        desc:"Quiz based on the popular sitcom, friends.",
         tag:["js","html","css",],
         btn1:"https://github.com/reerajput930/friends_quiz",
         btn2:"https://reerajput930.github.io/friends_quiz/"
@@ -105,7 +105,7 @@ export default [
     },
     {
         title:"GYM SERVICE WEBSITE",
-        desc:" ",
+        desc:"Demo Gym service website",
         tag:["html","css"],
         btn1:"https://github.com/reerajput930/gym-service-websit",
         btn2:"https://reerajput930.github.io/gym-service-website/"

@@ -251,6 +251,7 @@ a {
   flex-wrap: wrap;
   background-color: #252439;
   flex-direction: column;
+  text-align: center;
 }
 
 /* changiny slider default setting */

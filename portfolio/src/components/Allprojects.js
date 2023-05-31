@@ -24,7 +24,8 @@ export default function Allprojects() {
         }}
       >
         {" "}
-        All Projects are here!
+        All Projects are here, 
+        <p style={{fontSize:"25px"}}> With code link and live projects link!</p>
       </h3>
       <div
       className="inner--allproject--block"
