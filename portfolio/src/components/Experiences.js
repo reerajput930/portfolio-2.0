@@ -15,7 +15,7 @@ export default function Experiences() {
             <p>
               {" "}
               Doing Three Month paid internship at Eduladder Company as a Junior
-              Software Engineer.
+              Software Engineer.(Remote)
             </p>
           </div>
         </div>
@@ -42,8 +42,8 @@ export default function Experiences() {
           <div className="timeline-content">
             <h4>Web Developer · Internship</h4>
             <p>
-              Did Three Month paid internship at How To Abroad german based
-              startup as a web developer.
+              Did Three Month paid internship at How To Abroad Germany based
+              startup as a web developer.(Remote)
             </p>
           </div>
         </div>
