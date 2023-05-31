@@ -54,7 +54,7 @@ export default function Porjects() {
         <div className="btn--block">
           
           <a href="https://github.com/reerajput930/zero-dashboard" target="_blank"><button className="github--link btn">CODE LINK</button></a>
-          <a href="https://zero-dashboard.netlify.app/" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a>
+          {/* <a href="https://zero-dashboard.netlify.app/" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a> */}
         </div>
       </div>
     </div>,
@@ -105,7 +105,7 @@ export default function Porjects() {
        </p>
        <div className="btn--block">
          <a href="https://github.com/reerajput930/growth-app" target="_blank"><button className="github--link btn">CODE LINK</button></a>
-         <a href="https://github.com/reerajput930/growth-app" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a>
+         {/* <a href="https://github.com/reerajput930/growth-app" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a> */}
        </div>
      </div>
    </div>,

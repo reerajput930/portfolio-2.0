@@ -101,6 +101,7 @@ a {
   /* align-items: center; */
   margin-top: 8em;
   margin-bottom: 8em;
+  flex-wrap: wrap;
 }
 
 .user--detail {
@@ -166,6 +167,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   margin: 30px;
 }
@@ -942,6 +944,7 @@ a {
     align-items: center;
     margin-bottom: 5em;
     margin-top: 7em;
+    flex-wrap: wrap;
 
   }
 
@@ -1083,8 +1086,12 @@ a {
   }
 
   .carousel .control-dots {
-    margin: 0px 0;
+    margin: 0px 0px !important;
 
   }
+  .carousel.carousel-slider .control-arrow {
+    top: -2em;
+  
+}
 
 }
