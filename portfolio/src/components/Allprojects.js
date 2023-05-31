@@ -17,18 +17,21 @@ export default function Allprojects() {
         style={{
           fontSize: "35px",
           color: "whitesmoke",
-          fontFamily: "cursive",
+          fontFamily: "monospace",
           fontWeight: "300",
           marginTop: "10px",
           marginBottom: "10px",
         }}
       >
         {" "}
-        All Projects are here, 
-        <p style={{fontSize:"25px"}}> With code link and live projects link!</p>
+        All Projects are here,
+        <p style={{ fontSize: "25px" }}>
+          {" "}
+          With code link and live projects link!
+        </p>
       </h3>
       <div
-      className="inner--allproject--block"
+        className="inner--allproject--block"
         style={{
           display: "flex",
           flexWrap: "wrap",
@@ -54,7 +57,7 @@ export default function Allprojects() {
               borderRadius: " 2em 0px 0px 0px",
               backgroundColor: "#6e7fd1",
             }}
-            onClick={()=> <Allprojectsdetail input={"mern"}/>}
+            onClick={() => <Allprojectsdetail input={"mern"} />}
           >
             <img
               style={{ height: "6em", position: "relative", top: "-3em" }}

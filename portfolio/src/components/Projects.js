@@ -28,10 +28,9 @@ export default function Porjects() {
     <div
       style={{ alignItems: "baseline" }}
       className="slider--block zero-project"
-     
     >
       <div
-       className="inner--slider--block"
+        className="inner--slider--block"
         style={{
           display: "flex",
           flexDirection: "column",
@@ -52,14 +51,16 @@ export default function Porjects() {
         </p>
         <p style={{ marginBottom: "20px" }}>Used MERN Tech Stack.</p>
         <div className="btn--block">
-          
-          <a href="https://github.com/reerajput930/zero-dashboard" target="_blank"><button className="github--link btn">CODE LINK</button></a>
+          <a
+            href="https://github.com/reerajput930/zero-dashboard"
+            target="_blank"
+          >
+            <button className="github--link btn">CODE LINK</button>
+          </a>
           {/* <a href="https://zero-dashboard.netlify.app/" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a> */}
         </div>
       </div>
     </div>,
-
-    
 
     <div className="slider--block github-api">
       <div
@@ -80,39 +81,47 @@ export default function Porjects() {
           followers Api , have Pagination and Filteration feature.
         </p>
         <div className="btn--block">
-          <a href="https://github.com/reerajput930/Github-followers-api" target="_blank"><button className="github--link btn">CODE LINK</button></a>
-          <a href="https://pagination-filteration.netlify.app/" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a>
+          <a
+            href="https://github.com/reerajput930/Github-followers-api"
+            target="_blank"
+          >
+            <button className="github--link btn">CODE LINK</button>
+          </a>
+          <a href="https://pagination-filteration.netlify.app/" target="_blank">
+            <button className="project--lint btn">LIVE PROJECT</button>
+          </a>
         </div>
       </div>
     </div>,
-     <div className="slider--block  growth-project">
-     <div
-       style={{
-         display: "flex",
-         flexDirection: "column",
-         justifyContent: "center",
-         alignItems: "end",
-         marginRight: "10.5em",
-         letterSpacing: "0.5px",
-       }}
-     >
-       <h2 style={{ fontSize: "4em", marginBottom: "15px" }}>
-         Growth Application
-       </h2>
-       <p style={{ textAlign: "right", width: "50%", marginBottom: "20px" }}>
-         Growth Application is a Todo app , which is build for two users
-         only.This project have the jira software of drag and drop feature.
-       </p>
-       <div className="btn--block">
-         <a href="https://github.com/reerajput930/growth-app" target="_blank"><button className="github--link btn">CODE LINK</button></a>
-         {/* <a href="https://github.com/reerajput930/growth-app" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a> */}
-       </div>
-     </div>
-   </div>,
-   
+    <div className="slider--block  growth-project">
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "end",
+          marginRight: "10.5em",
+          letterSpacing: "0.5px",
+        }}
+      >
+        <h2 style={{ fontSize: "4em", marginBottom: "15px" }}>
+          Growth Application
+        </h2>
+        <p style={{ textAlign: "right", width: "50%", marginBottom: "20px" }}>
+          Growth Application is a Todo app , which is build for two users
+          only.This project have the jira software of drag and drop feature.
+        </p>
+        <div className="btn--block">
+          <a href="https://github.com/reerajput930/growth-app" target="_blank">
+            <button className="github--link btn">CODE LINK</button>
+          </a>
+          {/* <a href="https://github.com/reerajput930/growth-app" target="_blank"><button className="project--lint btn">LIVE PROJECT</button></a> */}
+        </div>
+      </div>
+    </div>,
   ];
   return (
-    <div className="project--block" style={{ padding: "46px", height: "65em" }}  >
+    <div className="project--block" style={{ padding: "46px", height: "65em" }}>
       <h2
         style={{
           fontSize: "3em",
@@ -152,7 +161,7 @@ export default function Porjects() {
       <h3
         style={{
           color: "whitesmoke",
-          fontFamily: "cursive",
+          fontFamily: "monospace",
           fontWeight: "300",
           marginTop: "10px",
         }}
@@ -160,10 +169,9 @@ export default function Porjects() {
         My Top Creations
       </h3>
       <div
-       className="slider--upper"
+        className="slider--upper"
         style={{
           marginTop: "10em",
-         
         }}
       >
         <Slider slides={projects} />
