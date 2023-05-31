@@ -5,7 +5,7 @@ import Allprojectsdetail from "./Allprojectsdetail";
 
 export default function Mern() {
     return (
-        <Allprojectsdetail input="mern"/>
+        <Allprojectsdetail input={["mern"]}/>
         // <h1>hellp</h1>
       );
 }

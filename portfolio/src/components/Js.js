@@ -5,7 +5,7 @@ import Allprojectsdetail from "./Allprojectsdetail";
 
 export default function Js() {
     return (
-        <Allprojectsdetail input="js"/>
+        <Allprojectsdetail input={["html","css","js"]}/>
         // <h1>hellp</h1>
       );
 }

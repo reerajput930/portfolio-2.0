@@ -88,6 +88,14 @@ export default [
 
     },
     {
+        title:"SERVICE WEBSITE",
+        desc:" ",
+        tag:["html","css"],
+        btn1:"https://github.com/reerajput930/resposive-service-website",
+        btn2:"https://reerajput930.github.io/resposive-service-website/"
+
+    },
+    {
         title:"FRIENDS SITCOM QUIZ",
         desc:" ",
         tag:["js","html","css",],
@@ -111,12 +119,5 @@ export default [
         btn2:"https://github.com/reerajput930/neumorphic-design-Login-page-"
 
     },
-    {
-        title:"SERVICE WEBSITE",
-        desc:" ",
-        tag:["html","css"],
-        btn1:"https://github.com/reerajput930/resposive-service-website",
-        btn2:"https://reerajput930.github.io/resposive-service-website/"
-
-    },
+    
 ]

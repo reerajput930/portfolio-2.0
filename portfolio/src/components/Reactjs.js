@@ -9,7 +9,7 @@ export default function Reactjs() {
 
 
   return (
-    <Allprojectsdetail input="reactjs"/>
+    <Allprojectsdetail input={["reactjs"]}/>
     // <h1>hellp</h1>
   );
 }
