@@ -48,6 +48,10 @@ export default function Home() {
           {/* <Typewriting print="Who Brings Imagination into Reality Via Coding!" /> */}
           <div className="quote" style={{fontFamily:"monospace",fontSize:"21px",fontWeight:"300",marginTop:"10px"}} id="typewriter">Who Brings Imagination into Reality Via Coding!</div>
           <div className="quote" style={{fontFamily:"monospace",fontSize:"21px",fontWeight:"300",marginTop:"10px"}} id="typewriter">Computer Science Graduate! (2023) </div>
+          <a href="https://drive.google.com/file/d/1-ewMQOmVygvlwHXwZXdboP8dKdKDNlvy/view?usp=sharing">
+          <div className="quote" style={{fontFamily:"monospace",fontSize:"21px",fontWeight:"300",marginTop:"10px",cursor:"pointer",textDecoration: "underline"}} id="typewriter">Guru Nanak Dev University,Amritsar!</div>
+
+          </a>
            
           <div className="icons--block">
             <Icons />

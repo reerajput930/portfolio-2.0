@@ -5,10 +5,7 @@ import Allprojectsdetail from "./Allprojectsdetail";
 
 export default function Reactjs() {
   
-
-
-
-  return (
+ return (
     <Allprojectsdetail input={["reactjs"]}/>
     // <h1>hellp</h1>
   );
