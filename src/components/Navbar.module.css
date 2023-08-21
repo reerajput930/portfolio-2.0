@@ -1,0 +1,22 @@
+.ulstyle h2{
+    font-weight: 400;
+    color: rgb(204, 214, 246);
+    position: relative;
+    display: flex;
+    align-items: unset;
+   
+    width: 100%;
+    white-space: nowrap;
+    font-size: 18px;
+    justify-content: center;
+
+}
+
+.colored {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+    color: rgb(100, 255, 218);
+    font-size: 15px;
+    position: relative;
+    bottom: -6px;
+}

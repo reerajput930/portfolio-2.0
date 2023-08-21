@@ -1,0 +1,90 @@
+.heading {
+
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    margin: 0px auto;
+    font-size: 32px;
+    line-height: 1.3;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.allBtnBlock {
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    margin-bottom: 4em;
+    align-items: baseline;
+}
+
+.break {
+    color: #fff;
+    font-size: 27px;
+    position: relative;
+    top: 3px;
+    font-weight: 400;
+}
+.filter{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.projectsblock{
+    width: "60%",
+}
+
+@media screen and (max-width: 480px) {
+
+    .heading{
+        font-size: 25px;
+    }
+    .heading--block{  
+        margin-bottom: 0px;
+        }
+        
+        .allBtnBlock{
+        margin-bottom: 2em;
+        width: 85%;
+        }
+        
+        .filter{
+        
+        font-size: 15px;
+        }
+        
+        /* // no module */
+        .project--btn{
+          font-size : 14px;
+        }
+        
+        
+        /* // no module */
+        .projectsblock{
+         width: 80%;
+        }
+      
+        
+        .hashtag{
+        font-size: 13px;
+        line-height:unset;
+        }
+        
+        
+        .github{
+           font-size: 25px;
+        }
+        
+        .file{
+         font-size: 25px;
+        }
+        
+        .break{
+            color: #fff;
+            font-size: 43px;
+            position: relative;
+            top: 14px;
+            font-weight: 300;
+        
+        }
+        
+}
+

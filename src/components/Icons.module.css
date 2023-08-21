@@ -1,0 +1,41 @@
+.img{
+    height: 2.5em;
+      cursor: pointer;
+      margin: 5px 0px 5px 0px;
+      animation: transform 0.4s ease;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+.insta{
+    
+    position: relative;
+    top: -1px;
+    height: 2.1em;
+
+}
+.youtube{
+    height: 1.5em;
+}
+.block{
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+/* height: 25px; */
+
+@media screen and (max-width: 480px) {
+
+    .img{
+        height: 26px;
+       
+    }
+    .youtube{
+        height: 14px;
+
+    }
+    .insta{
+        height: 20px;
+        
+    }
+}

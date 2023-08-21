@@ -1,0 +1,29 @@
+.techStackBlock{
+    width: 90%;
+}
+.icons{
+    width: 50px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.icons:hover {
+    transform: scale(1.5);
+    /* Apply zoom effect on hover */
+  }
+.items{
+
+}
+.topskillsBlock{
+
+}
+
+@media screen and (max-width: 480px) {
+   
+    .icons{
+        width: 30px;
+    }
+
+
+}

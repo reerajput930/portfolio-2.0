@@ -1,0 +1,203 @@
+* {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.homeBlock {
+    background-color: #0a192f;
+    height: 60em;
+    padding-top: 5em;
+}
+
+.innerBlock {
+    width: 70%;
+
+}
+
+.userup {
+    color: rgb(100, 255, 218);
+    margin: 0px 0px 20px 3px;
+    font-size: 15px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: normal;
+
+
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Start slightly below and fade in */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* Fade in and move to the normal position */
+    }
+}
+
+.userImg {}
+
+.userDesc {
+
+    font-size: 65px;
+    line-height: 1.1;
+    color: rgb(136, 146, 176);
+    font-weight: 600;
+    margin: 25px 0px 30px 0px;
+}
+
+.userDetail {
+    width: 60%;
+    margin-top: 4em;
+}
+
+.userName {
+    font-size: 70px;
+    line-height: 1.1;
+    margin: 0px;
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    animation: fadeInUp 1s ease-in-out 1s forwards;
+}
+
+.userDetail>p {
+    color: rgb(136, 146, 176);
+    line-height: 1.8;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.quote {}
+
+.floatRight {
+    position: fixed;
+    right: 40px;
+    bottom: 4px;
+    z-index: 99999999;
+}
+
+.floatRight>a {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    letter-spacing: 0.1em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+    padding: 10px;
+    color: rgb(100, 255, 218);
+    font-size: 19px;
+    transition: transform 0.4s ease;
+}
+
+.floatRight a:hover {
+    transform: translateY(-10px);
+}
+
+.floatRight::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: rgb(168, 178, 209);
+}
+
+.floatLeft {
+    position: fixed;
+    left: 40px;
+    bottom: 4px;
+    z-index: 99999999;
+}
+
+.floatLeft::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: rgb(168, 178, 209);
+}
+
+.btnContact {
+    color: rgb(100, 255, 218);
+    background-color: transparent;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    margin-top: 3.5em;
+}
+
+.iconsBlock {
+    /* position: relative;
+    top: 55px; */
+    margin-top: 3em;
+}
+
+.hightlight {
+    color: rgb(100, 255, 218);
+    font-weight: 400;
+}
+
+.homeBlock {
+    margin-bottom: 15em;
+}
+.btnContact a{
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(100, 255, 218);
+}
+
+@media screen and (max-width: 480px) {
+
+    .floatLeft {
+        left: 5px;
+    }
+
+    .floatRight {
+        right: 5px;
+    }
+
+    
+.innerBlock{
+    width:80%
+    }
+    
+    .homeBlock{
+    margin-bottom: 35em;
+    width: 100%;
+    }
+    
+    
+    .userName{
+    font-size: 35px;
+    }
+    
+    .userDesc{
+    font-size: 32px;
+    }
+    .userDetail{
+        width: 100%;
+        margin-top: 3em;
+        font-size: 15px;
+    }
+    
+
+.floatRight>a{
+    font-size: 15px;
+}
+.userDetail p{
+    font-size: 15px;
+}
+} 

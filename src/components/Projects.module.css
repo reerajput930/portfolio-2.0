@@ -1,0 +1,217 @@
+.project-card {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #0a192f;
+    position: relative;
+    margin-bottom: 5em;
+
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10em;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container img{
+    width: 25rem;
+    border-radius: 10px;
+
+  }
+  .project-details h2{
+    text-align: right;
+    font-size: 25px;
+    margin: 0px 0px 20px;
+    color: rgb(204, 214, 246);
+
+  }
+  .project-details p{
+    right: 10%;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    background-color: rgb(23, 42, 69);
+    color: rgb(168, 178, 209);
+    font-size: 18px;
+    border-radius: 3px;
+    width: 100%;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+  }
+  .project-skills ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: -webkit-fill-available;
+
+  }
+  .project-skills li{
+    margin: 10px;
+
+    font-weight: 600;
+    
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: rgb(100, 255, 218);
+    margin-right: 20px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+  }
+  /* Rest of your CSS rules... */
+  .github-link{
+    width: 83%;
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+  }
+  .project-details{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
+  }
+  .github{
+    font-size: 26px;
+  }
+
+  .project-details-left{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-details-left p{
+    left: 15%;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    background-color: rgb(23, 42, 69);
+    color: rgb(168, 178, 209);
+    font-size: 18px;
+    border-radius: 3px;
+    width: 100%;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+  }
+
+  .project-details-left h2{
+    text-align: right;
+    font-size: 25px;
+    margin: 0px 0px 20px;
+    color: rgb(204, 214, 246);
+
+  }
+  .project-details-left .github-link{
+    width: 83%;
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+.project-details-left li{
+  margin-top: 10px;
+
+    font-weight: 600;
+    
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: rgb(100, 255, 218);
+    margin-right: unset;
+    margin-bottom: 7px;
+    white-space: nowrap;
+}
+
+
+.block >h2 {
+  font-weight: 600;
+  color: rgb(204, 214, 246);
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 10px 0px 40px;
+  width: 58%;
+  white-space: nowrap;
+  font-size: 32px;
+}
+
+.colored{
+  margin-right: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-weight: normal;
+  color: rgb(100, 255, 218);
+  font-size: 22px;
+  position: relative;
+  bottom: -6px;
+}
+
+@media screen and (max-width: 480px) {
+  .project-card{
+    flex-direction: column
+  }
+  .project-details p{
+    position: unset;
+       text-align: center;
+    width: 90%;
+    font-size: 13px;
+
+  } 
+  .project-details-left p{
+    position: unset;
+       text-align: center;
+    width: 90%;
+
+  } 
+  .image-container img{
+    width:-webkit-fill-available !important;
+  }
+  #middle{
+    flex-direction: column-reverse;
+  }
+  .project-card{
+    width: 70%;
+  }
+  .block{
+    width: 100%;
+  }
+  .project-skills{
+    
+    width: -webkit-fill-available;
+
+  }
+  .block h2{
+    width : unset;
+    font-size:21px
+    
+  }
+  .project-skills li{
+    font-size: 10px;
+    margin-right: unset;
+    padding: 0px;
+  }
+ .project-skills{
+  justify-content: space-between;
+ }
+}
