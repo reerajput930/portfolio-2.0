@@ -12,6 +12,10 @@
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     margin-top: 3.5em;
 }
+.btnContact a{
+    color: rgb(100, 255, 218);
+    text-decoration: none;
+}
 .para{
     color: rgb(136, 146, 176);
     line-height: 1.3;

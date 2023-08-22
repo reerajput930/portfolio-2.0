@@ -25,7 +25,7 @@ export default function Contactus() {
          
       
         <button className={style.btnContact}>
-            Mail Me
+           <a href="mailto:rajputriya930@gmail.com">Mail Me</a> 
           </button>
     </div>
   );

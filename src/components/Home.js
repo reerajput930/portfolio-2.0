@@ -20,7 +20,7 @@ export default function Home() {
     >
       <div className={style.floatRight}>
         {" "}
-        <a href="rajputriya930@gmail.com">rajputriya930@gmail.com</a>
+        <a href="mailto:rajputriya930@gmail.com">rajputriya930@gmail.com</a>
       </div>
       <div className={style.floatLeft}>
         <Icons />
