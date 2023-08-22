@@ -37,6 +37,10 @@
     color: rgb(204, 214, 246);
 
   }
+  .project-details h2 a{
+   text-decoration: underline;
+
+  }
   .project-details p{
     right: 10%;
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
