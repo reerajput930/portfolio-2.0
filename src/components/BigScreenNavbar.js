@@ -11,6 +11,9 @@ export default function bigScreenNavbar(){
                 <li>HOME</li>
               </Link> */}
           <li>
+            <a href="#me"> <h2><span className={style.colored}>00.</span> Home</h2></a>
+          </li>
+          <li>
             <a href="#about"> <h2><span className={style.colored}>01.</span> About</h2></a>
           </li>
           <li>
