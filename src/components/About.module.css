@@ -11,14 +11,17 @@
     height: 65em;
     flex-direction: column;
     margin-bottom: 4em;
-
-
+    /* margin-top: 5em; */
+    
+    
 }
 
 .upperBlock {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 2em; 
+    
 
 }
 
@@ -103,6 +106,7 @@
 
 .skills {
     margin-top: 5em;
+    padding-top: 2em; 
     margin-bottom: 15em;
     width: 77%;
 

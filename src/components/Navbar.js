@@ -17,7 +17,7 @@ export default function Navbar() {
   // solve the bug - prev navbar not closing for new navbar
 
   return (
-    <div>
+    <div className={style.bigScreenNavbar}>
       <div
         style={{
           width: "-webkit-fill-available",
@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* {isMenuOpen && ( */}
           <nav className={`myDiv ${isMenuOpen ? 'show' : ''}`} >
             <div className="navbar-menu">
-              <ul style={{ display: "flex" }} className={style.ulstyle}>
+              <ul style={{ display: "flex",flexDirection:"column" }} className={style.ulstyle}>
                 {/* <Link to="/">
                       <li>HOME</li>
                     </Link> */}

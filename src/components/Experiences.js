@@ -62,7 +62,7 @@ export default function Experiences() {
             Feb 2022 - feb 2022<small>Part-Time</small>
           </div>
           <div className="timeline-content">
-            <h4>Freelancing</h4>
+            <h4>Freelancing · Dubai · India </h4>
             <p>
               Crafted captivating{" "}
               <span className={style.highlight}> WordPress websites </span>{" "}

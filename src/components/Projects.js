@@ -3,8 +3,10 @@ import styles from "./Projects.module.css"; // Import the CSS module
 import dashboard from "./images/dashboard-templates.jpg";
 import growth from "./images/growth.jpg";
 import gitapi from "./images/githubapi.png";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+
 const Projects = () => {
   return (
     <div id="projects" className={styles.block}>
@@ -32,10 +34,10 @@ const Projects = () => {
             answer a single question. Used MERN Tech Stack.
           </p>
           <div className={styles["project-skills"]}>
-            <ul>
+            <ul style={{flexDirection:"row"}}>
               <li>ReactJs</li>
               <li>NodeJs</li>
-              <li>ExperienceJs</li>
+              <li>Javascript</li>
               <li>Mongoose</li>
             </ul>
           </div>
@@ -58,7 +60,7 @@ const Projects = () => {
               href="https://github.com/reerajput930/Github-followers-api"
               target="_blank"
             >
-              Github Follawers API
+              Github Followers API
             </a>
           </h2>
           <p>
@@ -66,7 +68,7 @@ const Projects = () => {
             Github followers Api , have Pagination and Filteration feature.
           </p>
           <div className={styles["project-skills"]}>
-            <ul>
+            <ul style={{flexDirection:"row"}}>
               <li>HTML</li>
               <li>CSS</li>
               <li>ReactJs</li>
@@ -104,7 +106,7 @@ const Projects = () => {
             only.This project have the jira software of drag and drop feature.
           </p>
           <div className={styles["project-skills"]}>
-            <ul>
+            <ul style={{flexDirection:"row"}}>
               <li>ReactJs</li>
               <li>Tailwindcss</li>
               <li>NodeJs</li>

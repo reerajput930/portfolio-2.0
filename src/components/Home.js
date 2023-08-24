@@ -6,18 +6,22 @@ import React, { useEffect } from "react";
 import github from "./icons/github.png";
 import "../index.css";
 import style from "./Home.module.css";
+import BigScreenNavbar from "./BigScreenNavbar";
 
 export default function Home() {
   return (
+    <>
     <div
       className={style.homeBlock}
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        flexDirection:"column"
       }}
       id="me"
-    >
+      >
+      <BigScreenNavbar/>
       <div className={style.floatRight}>
         {" "}
         <a href="mailto:rajputriya930@gmail.com">rajputriya930@gmail.com</a>
@@ -72,5 +76,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }
