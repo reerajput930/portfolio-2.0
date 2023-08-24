@@ -6,7 +6,7 @@ export default function bigScreenNavbar(){
 
     return(
         <div className={style.laptopViewNavbar} >
-        <ul style={{ display: "flex" }} className={style.ulstyle}>
+        <ul style={{ display: "flex",flexDirection:"row" }} className={style.ulstyle}>
           {/* <Link to="/">
                 <li>HOME</li>
               </Link> */}
