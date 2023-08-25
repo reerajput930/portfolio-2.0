@@ -26,7 +26,7 @@ export default function Navbar() {
           alignItems: "center",
         }}
       >
-        {/* {isMenuOpen && ( */}
+        {isMenuOpen && (
           <nav className={`myDiv ${isMenuOpen ? 'show' : ''}`} >
             <div className="navbar-menu">
               <ul style={{ display: "flex",flexDirection:"column" }} className={style.ulstyle}>
@@ -52,7 +52,7 @@ export default function Navbar() {
               </ul>
             </div>
           </nav>
-        {/* )} */}
+      )}
 
   
       </div>
