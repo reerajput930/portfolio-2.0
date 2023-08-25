@@ -413,9 +413,13 @@ a {
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-size: 17px;
   margin-bottom: 16px;
-  font-weight: 400;
+  font-weight: 500;
 }
-
+.link{
+  color: #003f76;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .timeline-row .timeline-content i {
   font-size: 1.2rem;
   line-height: 100%;
@@ -810,7 +814,7 @@ a {
   }
 
   .project--btn {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .projects--block {
@@ -940,6 +944,7 @@ a {
   .timeline-row .timeline-content p {
 
     font-size: 11px;
+    margin-bottom: 5px;
   }
 
   .timeline-row .timeline-content h4 {
@@ -1197,6 +1202,27 @@ a {
     font-size: 20px;
   }
 
+  .timeline-row .timeline-content{
+    padding: 5px 5px;
+  }
+  .timeline-row .timeline-content:before {
+    right: -14px;
+    width: 14px;
+    height: 14px;
+}
 
+.timeline-row:nth-child(odd) .timeline-content {
+    margin-right: 30px;
+}
+
+.timeline-row:nth-child(even) .timeline-content {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.timeline-row:nth-child(even) .timeline-content:before {
+    left: -17px;
+    right: initial;
+}
 
 }

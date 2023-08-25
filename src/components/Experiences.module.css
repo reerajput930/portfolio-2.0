@@ -1,4 +1,4 @@
-.colored{
+.colored {
     margin-right: 10px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-weight: normal;
@@ -8,8 +8,96 @@
     bottom: -6px;
 
 }
-.highlight{
+
+.highlight {
     color: #fff;
     font-weight: 600;
+    margin: unset !important;
+    padding: unset !important;
+    display: unset !important;
 }
 
+.lowerPara img {
+    width: 25px;
+}
+
+.lowerPara {
+    margin-top: 1em;
+}
+
+.lowerPara span {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    font-weight: 500;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    padding-left: 15%;
+}
+
+.lowerPara {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.lowerPara ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 2em;
+
+}
+
+.lowerPara li {
+    margin: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    padding: 0px;
+
+    color: #fff;
+}
+
+.techskills {
+    padding-left: unset !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@media screen and (max-width: 480px) {
+
+    .lowerPara img {
+        width: 10px
+    }
+
+    .lowerPara span {
+        font-size: 10px;
+        margin: 3px 0px 2px 0px;
+        font-weight: 500;
+
+        padding-left: 2%;
+    }
+
+    .lowerPara ul {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 1em;
+    }
+
+    .lowerPara li {
+        margin: 2px;
+        font-weight: 400;
+        padding: 0px 15px 0px 15px;
+        font-size: 10px;
+        padding: 0px;
+        color: #fff;
+    }
+
+}
