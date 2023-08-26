@@ -21,9 +21,13 @@
     bottom: -6px;
 }
 .laptopViewNavbar{
-    position: absolute;
+    position: fixed;
     top: 1em;
     right: 4em;
+    z-index: 99999999999;
+    background-color: #0a192f;
+    border-radius: 7px;
+    padding: 8px 2px 8px 2px;
 }
 
 @media screen and (max-width: 480px) {
