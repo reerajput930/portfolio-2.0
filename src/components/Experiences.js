@@ -61,6 +61,11 @@ export default function Experiences() {
                   <img src={arrow} />
                   Posts Section (logic and ui)
                 </span>
+                <span>
+                  {" "}
+                  <img src={arrow} />
+                  Clean Code Practice
+                </span>
               </span>
 
               <span className={style.techskills}>
@@ -70,6 +75,7 @@ export default function Experiences() {
                   <li>#AWSSerwe</li>
                   <li>#Redux</li>
                   <li>#RestApi</li>
+                  <li>#CleanCode</li>
                 </ul>
               </span>
             </p>
@@ -96,6 +102,10 @@ export default function Experiences() {
               </span>
               <span>
                 <img src={arrow} />
+               Clean Code Practice
+              </span>
+              <span>
+                <img src={arrow} />
                 Solved more than 75+ bugs on the e-commerse platform
               </span>
 
@@ -106,6 +116,7 @@ export default function Experiences() {
                   <li> #html5</li>
                   <li>#css3</li>
                   <li>#linux</li>
+                  <li>#CleanCode</li>
                 </ul>
               </span>
             </p>
@@ -192,6 +203,7 @@ export default function Experiences() {
                   <li>#html5</li>
                   <li>#css3</li>
                   <li> #WordPress</li>
+                  <li> #CleanCode</li>
                 </ul>
               </span>
             </p>
