@@ -70,6 +70,26 @@
     align-items: center !important;
     justify-content: center !important;
 }
+.showpara{
+    width: -webkit-fill-available;
+
+    text-align: right;
+    color: #ea2525;
+    margin-top: 0px;
+    cursor: pointer;
+    position: relative;
+    top: -5px;
+}
+.hidepara{
+    width: -webkit-fill-available;
+ 
+    text-align: right;
+    color: #ea2525;
+    margin-top: 0px;
+    cursor: pointer;
+    position: relative;
+    top: -5px;
+}
 
 @media screen and (max-width: 480px) {
 

@@ -1,8 +1,12 @@
+import { useState } from "react";
 import "../index.css";
 import style from "./Experiences.module.css";
 import arrow from "./images/arrow-turn-down-right-svgrepo-com.png";
 
 export default function Experiences() {
+  const [show1, setShow1] = useState(false);
+  const [show2, setShow2] = useState(false);
+  const [show3, setShow3] = useState(false);
   return (
     <div id="experence" className="experience">
       <h2>
@@ -26,59 +30,76 @@ export default function Experiences() {
               <span className={style.highlight}>Product Based StartUp</span> at
               Delhi,India.
             </p>
-            <p className={style.lowerPara}>
-              <span>
-                <img src={arrow} />
-                Till now solved more than 85+ assigned tasks on jira and trello
-              </span>
-              <span>
-                <img src={arrow} />
-                Designed the{" "}
-                <a target="_blank" href="https://reverr.io/" className="link">
-                  {" "}
-                  Reverr Website{" "}
-                </a>
-              </span>
-              <span>
-                <img src={arrow} />
-                Designed and build the logic of{" "}
-                <a target="_blank" href="https://webapp.reverr.io/" className="link">
-                  {" "}
-                  Reverr Community web-app
-                </a>
+            {show1 && (
+              <p className={style.lowerPara}>
                 <span>
-                  {" "}
                   <img src={arrow} />
-                  space Filter (logic and ui)
+                  Till now solved more than 85+ assigned tasks on jira and
+                  trello
                 </span>
                 <span>
-                  {" "}
                   <img src={arrow} />
-                  Upload Section (logic and ui)
+                  Designed the{" "}
+                  <a target="_blank" href="https://reverr.io/" className="link">
+                    {" "}
+                    Reverr Website{" "}
+                  </a>
                 </span>
                 <span>
-                  {" "}
                   <img src={arrow} />
-                  Posts Section (logic and ui)
+                  Designed and build the logic of{" "}
+                  <a
+                    target="_blank"
+                    href="https://webapp.reverr.io/"
+                    className="link"
+                  >
+                    {" "}
+                    Reverr Community web-app
+                  </a>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    space Filter (logic and ui)
+                  </span>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    Upload Section (logic and ui)
+                  </span>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    Posts Section (logic and ui)
+                  </span>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    Clean Code Practice
+                  </span>
                 </span>
-                <span>
-                  {" "}
-                  <img src={arrow} />
-                  Clean Code Practice
-                </span>
-              </span>
 
-              <span className={style.techskills}>
-                <ul>
-                  <li> #ReactJs</li>
-                  <li> #FireBase</li>
-                  <li>#AWSSerwe</li>
-                  <li>#Redux</li>
-                  <li>#RestApi</li>
-                  <li>#CleanCode</li>
-                </ul>
-              </span>
-            </p>
+                <span className={style.techskills}>
+                  <ul>
+                    <li> #ReactJs</li>
+                    <li> #FireBase</li>
+                    <li>#AWSSerwe</li>
+                    <li>#Redux</li>
+                    <li>#RestApi</li>
+                    <li>#CleanCode</li>
+                  </ul>
+                </span>
+              </p>
+            )}
+
+            {show1 ? (
+              <p className={style.hidepara} onClick={() => setShow1(false)}>
+                show less
+              </p>
+            ) : (
+              <p className={style.showpara} onClick={() => setShow1(true)}>
+                ...show more
+              </p>
+            )}
           </div>
         </div>
 
@@ -95,43 +116,60 @@ export default function Experiences() {
               platform at Bangalore, India
             </p>
 
-            <p className={style.lowerPara}>
-              <span>
-                <img src={arrow} />
-                Linux Command lines
-              </span>
-              <span>
-                <img src={arrow} />
-               Clean Code Practice
-              </span>
-              <span>
-                <img src={arrow} />
-                Solved more than 75+ bugs on the e-commerse platform
-              </span>
+            {show2 && (
+              <p className={style.lowerPara}>
+                <span>
+                  <img src={arrow} />
+                  Linux Command lines
+                </span>
+                <span>
+                  <img src={arrow} />
+                  Clean Code Practice
+                </span>
+                <span>
+                  <img src={arrow} />
+                  Solved more than 75+ bugs on the e-commerse platform
+                </span>
 
-              <span className={style.techskills}>
-                <ul>
-                  <li> #ReactJs</li>
-                  <li>#JS</li>
-                  <li> #html5</li>
-                  <li>#css3</li>
-                  <li>#linux</li>
-                  <li>#CleanCode</li>
-                </ul>
-              </span>
-            </p>
+                <span className={style.techskills}>
+                  <ul>
+                    <li> #ReactJs</li>
+                    <li>#JS</li>
+                    <li> #html5</li>
+                    <li>#css3</li>
+                    <li>#linux</li>
+                    <li>#CleanCode</li>
+                  </ul>
+                </span>
+              </p>
+            )}
+            {show2 ? (
+              <p className={style.hidepara} onClick={() => setShow2(false)}>
+                show less
+              </p>
+            ) : (
+              <p className={style.showpara} onClick={() => setShow2(true)}>
+                ...show more
+              </p>
+            )}
           </div>
         </div>
 
         <div className="timeline-row">
           <div className="timeline-time">
-           <small>Part-Time</small>
+            <small>Part-Time</small>
           </div>
           <div className="timeline-content">
             <h4>Freelancing · Dubai · India </h4>
             <p>
-              Created pure (html5 , css3 ) Dubai Website - <a className="link" target="_blank" href="https://shehban-services-est.netlify.app/">SHEHBAN TECHNICAL SERVICES EST</a>
-             
+              Created pure (html5 , css3 ) Dubai Website -{" "}
+              <a
+                className="link"
+                target="_blank"
+                href="https://shehban-services-est.netlify.app/"
+              >
+                SHEHBAN TECHNICAL SERVICES EST
+              </a>
               {/* <a target="_blank" href="https://divulgejute.com">
                 <span className={style.highlight}>
                   {" "}
@@ -140,7 +178,14 @@ export default function Experiences() {
               </a> */}
             </p>
             <p>
-              Indian e-commerce website - <a className="link" target="_blank" href="https://divulgejute.com/">Divulge Jute</a>
+              Indian e-commerce website -{" "}
+              <a
+                className="link"
+                target="_blank"
+                href="https://divulgejute.com/"
+              >
+                Divulge Jute
+              </a>
             </p>
           </div>
         </div>
@@ -152,61 +197,76 @@ export default function Experiences() {
           <div className="timeline-content">
             <h4>Web Developer · Germany</h4>
             <p>
-              In three thrilling months, I had worked upon the   <span className={style.highlight}> Logic Builing </span> in
+              In three thrilling months, I had worked upon the{" "}
+              <span className={style.highlight}> Logic Builing </span> in
               Javascript at
-              <span className={style.highlight}> Germany-based consultant startup </span>,
-              How To Abroad.
-            </p>
-
-            <p className={style.lowerPara}>
-              <span>
-                <img src={arrow} />I have designed and built the entire{" "}
-                <span className={style.highlight}>
-                  {" "}
-                  college filtering system{" "}
-                </span>
-                for{" "}
-                <a
-                  href="https://howtoabroad.com/find-study-programmes-in-germany/"
-                  className="link"
-                >
-                  {" "}
-                  HowToAbroad in Germany
-                </a>{" "}
-                , The added functionalities include the following:
-                <span>
-                  {" "}
-                  <img src={arrow} />
-                  Pagination feature
-                </span>
-                <span>
-                  {" "}
-                  <img src={arrow} />
-                  University Name ,Course Name and Germany Ranking (text filter)
-                </span>
-                <span>
-                  {" "}
-                  <img src={arrow} />
-                  Duration and sortby (menu filter)
-                </span>
-                <span>
-                  {" "}
-                  <img src={arrow} />
-                  Tution Fee (Range Bar Filter)
-                </span>
+              <span className={style.highlight}>
+                {" "}
+                Germany-based consultant startup{" "}
               </span>
-
-              <span className={style.techskills}>
-                <ul>
-                  <li> #Javascript</li>
-                  <li> #webScraping</li>
-                  <li>#html5</li>
-                  <li>#css3</li>
-                  <li> #WordPress</li>
-                  <li> #CleanCode</li>
-                </ul>
-              </span>
+              , How To Abroad.
             </p>
+            {show3 && (
+              <p className={style.lowerPara}>
+                <span>
+                  <img src={arrow} />I have designed and built the entire{" "}
+                  <span className={style.highlight}>
+                    {" "}
+                    college filtering system{" "}
+                  </span>
+                  for{" "}
+                  <a
+                    href="https://howtoabroad.com/find-study-programmes-in-germany/"
+                    className="link"
+                  >
+                    {" "}
+                    HowToAbroad in Germany
+                  </a>{" "}
+                  , The added functionalities include the following:
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    Pagination feature
+                  </span>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    University Name ,Course Name and Germany Ranking (text
+                    filter)
+                  </span>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    Duration and sortby (menu filter)
+                  </span>
+                  <span>
+                    {" "}
+                    <img src={arrow} />
+                    Tution Fee (Range Bar Filter)
+                  </span>
+                </span>
+
+                <span className={style.techskills}>
+                  <ul>
+                    <li> #Javascript</li>
+                    <li> #webScraping</li>
+                    <li>#html5</li>
+                    <li>#css3</li>
+                    <li> #WordPress</li>
+                    <li> #CleanCode</li>
+                  </ul>
+                </span>
+              </p>
+            )}
+            {show3 ? (
+              <p className={style.hidepara} onClick={() => setShow3(false)}>
+                show less
+              </p>
+            ) : (
+              <p className={style.showpara} onClick={() => setShow3(true)}>
+                ...show more
+              </p>
+            )}
           </div>
         </div>
 
