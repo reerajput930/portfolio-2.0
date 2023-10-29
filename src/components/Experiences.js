@@ -17,7 +17,7 @@ export default function Experiences() {
       <div className="timeline">
         <div className="timeline-row">
           <div className="timeline-time">
-            June 2022 - Present<small>Full-Time</small>
+            June 2023 - Present<small>Full-Time</small>
           </div>
           <div className="timeline-content">
             <h4>ReactJs Developer · Delhi</h4>
