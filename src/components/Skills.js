@@ -5,9 +5,9 @@ import css from "./skills/css.png";
 import javascript from "./skills/javascript.png";
 
 import nodejs from "./skills/nodejs.png";
-import git from "./skills/git.png";
+import git from "./skills/git-white.png";
 
-import vsstudio from "./skills/vsstudio.png";
+import vsstudio from "./skills/vscode-alt.png";
 import python from "./skills/python.png"
 
 import wordpress from "./skills/wordpress.png";
