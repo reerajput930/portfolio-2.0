@@ -8,6 +8,7 @@ import nodejs from "./skills/nodejs.png";
 import git from "./skills/git.png";
 
 import vsstudio from "./skills/vsstudio.png";
+import python from "./skills/python.png"
 
 import wordpress from "./skills/wordpress.png";
 
@@ -54,6 +55,7 @@ export default function Skills() {
             <img className={style.icons} src={mongodb} />
             <img className={style.icons} src={expressjs} />
             <img className={style.icons} src={nodejs} />
+            <img className={style.icons} src={python} />
           </div>
         </div>
 
