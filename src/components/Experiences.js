@@ -17,7 +17,7 @@ export default function Experiences() {
       <div className="timeline">
         <div className="timeline-row">
           <div className="timeline-time">
-            June 2023 - Present<small>Full-Time</small>
+            June 2023 - Sep 2023<small>Internship</small>
           </div>
           <div className="timeline-content">
             <h4>ReactJs Developer · Delhi</h4>
@@ -102,7 +102,7 @@ export default function Experiences() {
             )}
           </div>
         </div>
-
+{/* 
         <div className="timeline-row">
           <div className="timeline-time">
             May 2022 - July 2022<small>Full-Time</small>
@@ -153,7 +153,7 @@ export default function Experiences() {
               </p>
             )}
           </div>
-        </div>
+        </div> */}
 
         <div className="timeline-row">
           <div className="timeline-time">
@@ -192,7 +192,7 @@ export default function Experiences() {
 
         <div className="timeline-row">
           <div className="timeline-time">
-            Dec 2021 - April 2022<small>Full-time</small>
+            Dec 2021 - April 2022<small>Internship</small>
           </div>
           <div className="timeline-content">
             <h4>Web Developer · Germany</h4>
@@ -272,7 +272,7 @@ export default function Experiences() {
 
         <div className="timeline-row">
           <div className="timeline-time">
-            Aug 2021 - Aug 2022<small>Part-time</small>
+            Aug 2021 - Aug 2022<small>volunteer</small>
           </div>
           <div className="timeline-content">
             <h4>Google Developer Student Clubs</h4>
@@ -293,7 +293,7 @@ export default function Experiences() {
         </div>
         <div className="timeline-row">
           <div className="timeline-time">
-            Apr 2021 - Present<small>Part-time</small>
+            Apr 2021 - Present<small>volunteer</small>
           </div>
           <div className="timeline-content">
             <h4>Microsoft Learn Student Ambassador</h4>

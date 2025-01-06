@@ -41,29 +41,30 @@ export default function Home() {
           </h2>
           <div className={style.userDetail}>
             <p>
-              I'm a{" "}
-              <span className={style.hightlight}>Frontend Developer </span> with
-              a goal-driven creative mindset and a passion for learning and
-              innovating.
+            Looking for a {" "}
+              <span className={style.hightlight}>CO-OP/internship</span> with
+              to kickstart my career in the cyber world. I have a keen interest in network
+security, operations, and troubleshooting, and am pursuing  <span className={style.hightlight} > postgraduate studies in cybersecurity in Sault College,ON Canada </span> 
+to fuel my passion for solving new challenges every day and protecting digital systems
             </p>
             <p>
               I have completed a{" "}
               <span className={style.hightlight}>
                 bachelor's in computer science
-              </span>  from Guru Nanak Dev university , India. Currently pursuing my <span className={style.hightlight}> Master's in cyber-security    </span>    from sault college, Canada.
+              </span>  from Guru Nanak Dev university , India.
             </p>
             <p>
-              Other then that, Being{" "}
+              Other then that, I did{" "}
               <span className={style.hightlight}>
                 {" "}
-                Microsoft Student Ambassador
+                CompTIA Network+
               </span>{" "}
-              , I organize webinars aimed at{" "}
+              , and{" "}
               <span className={style.hightlight}>
                 {" "}
-                promoting/teaching tech while empowering women to join the field
+               ISC2 CC 
               </span>
-              ,with a purpose to learn while teaching
+              , Certifications with tons of Cisco Labs and project.
             </p>
           </div>
           {/* <div className={style.quote} style={{fontFamily:"monospace",fontSize:"21px",fontWeight:"300",marginTop:"10px"}} id="typewriter">Computer Science Graduate! (2023) </div>
