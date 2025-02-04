@@ -43,18 +43,19 @@ export default function Home() {
             <p>
             Looking for a {" "}
               <span className={style.hightlight}>CO-OP/internship</span> with
-              to kickstart my career in the cyber world. I have a keen interest in network
-security, operations, and troubleshooting, and am pursuing  <span className={style.hightlight} > postgraduate studies in cybersecurity in Sault College,ON Canada </span> 
+              to kickstart my career in the Tech world. I have a keen interest in network
+security, operations, and troubleshooting, Additionally have real-world experience in Frontend, Back-end, and Full-stack development.I am pursuing  <span className={style.hightlight} > postgraduate studies in cybersecurity in Sault College,ON Canada </span> 
 to fuel my passion for solving new challenges every day and protecting digital systems
             </p>
             <p>
               I have completed a{" "}
               <span className={style.hightlight}>
                 bachelor's in computer science
-              </span>  from Guru Nanak Dev university , India.
+              </span>  from Guru Nanak Dev University, India.
             </p>
             <p>
-              Other then that, I did{" "}
+              Had the
+opportunity to work with  <span className={style.hightlight}>  Microsoft and Google </span>, gaining exposure to security and cloud technologies, Recently I did{" "}
               <span className={style.hightlight}>
                 {" "}
                 CompTIA Network+
