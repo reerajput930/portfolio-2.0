@@ -176,7 +176,7 @@ export default function Experiences() {
 
         <div className="timeline-row">
           <div className="timeline-time">
-            <small>Part-Time</small>
+            <small>Side Hustle</small>
           </div>
           <div className="timeline-content">
             <h4>Freelancing · Dubai · India · Canada  </h4>
