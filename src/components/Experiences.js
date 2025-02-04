@@ -1,4 +1,4 @@
-\import { useState } from "react";
+import { useState } from "react";
 import "../index.css";
 import style from "./Experiences.module.css";
 import arrow from "./images/arrow-turn-down-right-svgrepo-com.png";
@@ -13,12 +13,15 @@ export default function Experiences() {
         {" "}
         <span className={style.colored}>03.</span>Experience!
       </h2>
-     <div className="timeline-row">
+    
+      <div className="timeline">
+      <div className="timeline-row">
           <div className="timeline-time">
-            Apr 2021 - 2024 <small></small>
+            Apr 2021 - 2024 <small>Microsoft</small>
           </div>
           <div className="timeline-content">
-            <h4>Microsoft Learn Ambassador</h4>
+            <h4>Microsoft Learn Ambassador </h4>
+           
             <p>
               Engaged in more than{" "}
               <span className={style.highlight}> 150+ global tech events </span>
@@ -33,7 +36,6 @@ export default function Experiences() {
           </div>
         </div>
 
-      <div className="timeline">
         <div className="timeline-row">
           <div className="timeline-time">
             June 2023 - Sep 2023<small>Internship</small>
@@ -302,7 +304,7 @@ export default function Experiences() {
 
         <div className="timeline-row">
           <div className="timeline-time">
-            Aug 2021 - Aug 2022<small></small>
+            Aug 2021 - Aug 2022<small>Google</small>
           </div>
           <div className="timeline-content">
             <h4>Google Developer Clubs</h4>
