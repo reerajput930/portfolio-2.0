@@ -1,4 +1,4 @@
-import { useState } from "react";
+\import { useState } from "react";
 import "../index.css";
 import style from "./Experiences.module.css";
 import arrow from "./images/arrow-turn-down-right-svgrepo-com.png";
@@ -13,6 +13,25 @@ export default function Experiences() {
         {" "}
         <span className={style.colored}>03.</span>Experience!
       </h2>
+     <div className="timeline-row">
+          <div className="timeline-time">
+            Apr 2021 - 2024 <small></small>
+          </div>
+          <div className="timeline-content">
+            <h4>Microsoft Learn Ambassador</h4>
+            <p>
+              Engaged in more than{" "}
+              <span className={style.highlight}> 150+ global tech events </span>
+              , and{" "}
+              <span className={style.highlight}> Conducted in over 45+ </span>,
+              and had the honor of being{" "}
+              <span className={style.highlight}>
+                interviewed by a Microsoft employee{" "}
+              </span>{" "}
+              .
+            </p>
+          </div>
+        </div>
 
       <div className="timeline">
         <div className="timeline-row">
@@ -160,7 +179,18 @@ export default function Experiences() {
             <small>Part-Time</small>
           </div>
           <div className="timeline-content">
-            <h4>Freelancing · Dubai · India </h4>
+            <h4>Freelancing · Dubai · India · Canada  </h4>
+              
+            <p>
+              Canadian Saloon Website -{" "}
+              <a
+                className="link"
+                target="_blank"
+                href="https://ebellanailbar.com/index.html"
+              >
+                E Bella Nail Bar
+              </a>
+            </p>
             <p>
               Created pure (html5 , css3 ) Dubai Website -{" "}
               <a
@@ -291,25 +321,7 @@ export default function Experiences() {
             </p>
           </div>
         </div>
-        <div className="timeline-row">
-          <div className="timeline-time">
-            Apr 2021 - 2024 <small></small>
-          </div>
-          <div className="timeline-content">
-            <h4>Microsoft Learn Ambassador</h4>
-            <p>
-              Engaged in more than{" "}
-              <span className={style.highlight}> 150+ global tech events </span>
-              , and{" "}
-              <span className={style.highlight}> Conducted in over 45+ </span>,
-              and had the honor of being{" "}
-              <span className={style.highlight}>
-                interviewed by a Microsoft employee{" "}
-              </span>{" "}
-              .
-            </p>
-          </div>
-        </div>
+       
 
         <div className="timeline-row">
           <div className="timeline-time">
