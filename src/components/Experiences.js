@@ -231,7 +231,7 @@ export default function Experiences() {
                   <span>
                     {" "}
                     <img src={arrow} />
-                    University Name ,Course Name and Germany Ranking (text
+                    University Name , Course Name and Germany Ranking (text
                     filter)
                   </span>
                   <span>
@@ -242,7 +242,7 @@ export default function Experiences() {
                   <span>
                     {" "}
                     <img src={arrow} />
-                    Tution Fee (Range Bar Filter)
+                    Tuition Fee (Range Bar Filter)
                   </span>
                 </span>
 
@@ -272,10 +272,10 @@ export default function Experiences() {
 
         <div className="timeline-row">
           <div className="timeline-time">
-            Aug 2021 - Aug 2022<small>volunteer</small>
+            Aug 2021 - Aug 2022<small></small>
           </div>
           <div className="timeline-content">
-            <h4>Google Developer Student Clubs</h4>
+            <h4>Google Developer Clubs</h4>
             <p>
               Empowering as Co-Lead of Competitive Programming, I've taught over{" "}
               <span className={style.highlight}> 300+ students </span>in coding
@@ -293,10 +293,10 @@ export default function Experiences() {
         </div>
         <div className="timeline-row">
           <div className="timeline-time">
-            Apr 2021 - Present<small>volunteer</small>
+            Apr 2021 - 2024 <small></small>
           </div>
           <div className="timeline-content">
-            <h4>Microsoft Learn Student Ambassador</h4>
+            <h4>Microsoft Learn Ambassador</h4>
             <p>
               Engaged in more than{" "}
               <span className={style.highlight}> 150+ global tech events </span>
